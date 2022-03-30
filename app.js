@@ -30,5 +30,5 @@ app.get("/detail", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`${port} 가 열렸습니다.`);
+  console.log(`${port} 포트가 열렸습니다.`);
 });
